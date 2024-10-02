@@ -4,6 +4,7 @@
     }
     h1{
         font-size: 56px !important;
+        text-align: center;
     }
     .header-block{
         ul{
@@ -14,8 +15,8 @@
         }
     }
     .banner-container {
-
-        background: linear-gradient(to top left, rgba(254, 243, 199) 50%, #FFFFFF 50%);
+        padding: 50px 0 0 ;
+        background: #ffffff;
         .left-block{
             display: flex;
             flex-direction: column;
@@ -24,14 +25,35 @@
         }
         .top-block{
             flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .img-item{
+                width: 361px;
+                height: 314px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                }
+
+            }
+            background: linear-gradient(to top left, rgba(254, 243, 199) 50%, #FFFFFF 50%);
         }
         .bottom-block{
             flex-direction: column;
+            padding: 0 20px;
+            margin: 0;
+            background:  rgba(254, 243, 199);
+
             .bottom-item{
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
+                margin: 0;
+                text-align: center;
+
+
             }
         }
     }
