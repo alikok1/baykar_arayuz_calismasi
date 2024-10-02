@@ -1,0 +1,138 @@
+@media (max-width: 960px) {
+    h2{
+        font-size: 32px !important;
+    }
+    h1{
+        font-size: 56px !important;
+    }
+    .header-block{
+        ul{
+            display:none;
+        }
+        .btn-item{
+            display: none;
+        }
+    }
+    .banner-container {
+
+        background: linear-gradient(to top left, rgba(254, 243, 199) 50%, #FFFFFF 50%);
+        .left-block{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .top-block{
+            flex-direction: column;
+        }
+        .bottom-block{
+            flex-direction: column;
+            .bottom-item{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+    .join-container{
+        padding: 30px 20px ;
+        .join-block{
+            flex-direction: column;
+            max-height: 100%;
+            .info-block{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin: 0 0 20px;
+            }
+        }
+    }
+    .purchase-container{
+        padding: 0 40px 80px;
+        .top-block{
+            flex-direction: column;
+            margin: 0 0 50px;
+            h2{
+                font-size: 32px;
+            }
+        }
+        .purchase-block{
+            flex-direction: column;
+            width: 100%;
+            .purchase-item{
+                width: 100%;
+            }
+        }
+    }
+    .slider-root{
+        height: 540px;
+        .slider-container{
+            .slider-block{
+                padding: 0 20px;
+                .slider-item{
+                    width: 90%;
+                    min-width: 90%;
+                }
+            }
+        }
+
+    }
+    .slider-btn{
+        display: none !important;
+    }
+    .collection-container{
+        padding: 30px  0 0 ;
+        .top-block{
+            padding: 0 40px;
+        }
+        .collection-block{
+            flex-direction: column;
+        }
+    }
+    .collection-info-block{
+        flex-direction: column;
+        height: 717px;
+        justify-content: flex-start;
+        .shoes-item{
+            position: relative;
+            top: 0;
+            left: -20px;
+        }
+        .text-item{
+            font-size: 48px;
+            span{
+                font-size: 32px;
+            }
+        }
+    }
+    .footer-container{
+        .footer-block{
+            flex-direction: column;
+            ul{
+                flex-direction:column ;
+                align-items: center;
+                width: 100%;
+                flex-wrap: nowrap;
+                li{
+                    margin: 0 0 15px;
+                }
+            }
+            .right-block{
+                margin: 20px 0 0;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+            }
+        }
+        .copyright-block{
+            flex-direction: column;
+        }
+    }
+
+
+
+}

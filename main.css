@@ -51,6 +51,7 @@ body{
     background: #FFFBEB;
     padding: 0 80px;
     background: linear-gradient(to top left, rgba(254, 243, 199) 50%, #FFFBEB 50%);
+
     .top-block{
         display: flex;
         align-items: center;
@@ -365,7 +366,7 @@ body{
     .background{
         position: absolute;
         right: 0;
-        bottom: 0;
+        bottom: -1px;
         width: 100%;
         z-index: -1;
     }
@@ -570,5 +571,8 @@ body{
 }
 
 }
+
+
+
 
 
